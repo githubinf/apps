@@ -1,12 +1,27 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 /**
  * App: Sales Page Profesional de Largo Formato
  * Texto íntegro de Francisco González con formato numérico español (Puntos para miles, comas para decimales).
  */
 const App: React.FC = () => {
+  const [showFloatingCTA, setShowFloatingCTA] = useState(false);
   const paymentLink = 'https://fcofrancis.pay.clickbank.net/?cbitems=4';
   const bookImageUrl = "https://i.ibb.co/spzGwZBx/dinero-con-clickbank.png";
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Mostrar el botón flotante después de que el usuario haya bajado 600px
+      if (window.scrollY > 600) {
+        setShowFloatingCTA(true);
+      } else {
+        setShowFloatingCTA(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const scrollToCTA = () => {
     const element = document.getElementById('cta-final');
@@ -18,6 +33,17 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen selection:bg-emerald-200 selection:text-emerald-900 bg-white overflow-x-hidden sans-font">
       
+      {/* Botón Flotante (Popup de conversión) */}
+      <div className={`fixed bottom-6 right-6 z-[100] transition-all duration-500 transform ${showFloatingCTA ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0 pointer-events-none'}`}>
+        <button 
+          onClick={scrollToCTA}
+          className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-6 rounded-2xl shadow-[0_10px_40px_rgba(5,150,105,0.4)] flex flex-col items-center transition-all border border-emerald-500/20 active:scale-95 group"
+        >
+          <span className="text-[10px] uppercase tracking-tighter opacity-90 group-hover:opacity-100 transition-opacity">Acceder ahora por solo</span>
+          <span className="text-xl leading-none">$9,99</span>
+        </button>
+      </div>
+
       {/* Barra de Urgencia */}
       <div className="bg-red-700 text-white py-2.5 px-4 text-center text-xs md:text-sm font-bold tracking-widest uppercase sticky top-0 z-50 shadow-md">
         ¡ATENCIÓN! ESTA OFERTA ES POR TIEMPO LIMITADO
@@ -157,7 +183,7 @@ const App: React.FC = () => {
           
           <p>Hasta que una noche, frustrado, hice algo radical: dejé de buscar "qué hacer" y empecé a preguntarme "por qué nada funcionaba".</p>
           
-          <p>Y ahí, en medio de mi frustración, encontré el patrón.</p>
+          <p>And ahí, en medio de mi frustración, encontré el patrón.</p>
           
           <p>Todos los que fracasan en Clickbank (incluyéndome en ese momento) cometen el mismo error conceptual:</p>
           
@@ -462,7 +488,7 @@ const App: React.FC = () => {
           
           <p>Verás oportunidades donde otros ven productos. Verás personas donde otros ven "tráfico". Verás problemas emocionales donde otros ven "nichos de mercado".</p>
           
-          <p>And eso, aunque no lo creas ahora, vale mucho más que $9,99. Vale tu tiempo, tu energía, tu paz mental.</p>
+          <p>Y eso, aunque no lo creas ahora, vale mucho más que $9,99. Vale tu tiempo, tu energía, tu paz mental.</p>
 
           <hr className="my-12 border-slate-100" />
 
