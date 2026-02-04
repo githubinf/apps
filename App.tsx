@@ -8,6 +8,13 @@ const App: React.FC = () => {
   const paymentLink = 'https://fcofrancis.pay.clickbank.net/?cbitems=4';
   const bookImageUrl = "https://i.ibb.co/spzGwZBx/dinero-con-clickbank.png";
 
+  const scrollToCTA = () => {
+    const element = document.getElementById('cta-final');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen selection:bg-emerald-200 selection:text-emerald-900 bg-white overflow-x-hidden sans-font">
       
@@ -376,7 +383,7 @@ const App: React.FC = () => {
               </p>
               
               <button 
-                onClick={() => window.open(paymentLink, '_blank')}
+                onClick={scrollToCTA}
                 className="w-full md:w-auto bg-emerald-500 hover:bg-emerald-400 text-emerald-950 font-black py-6 px-12 rounded-full text-xl md:text-2xl transition-all transform hover:scale-105 shadow-xl animate-pulse-custom"
               >
                 OBTENER MI COPIA POR $9,99
@@ -472,7 +479,7 @@ const App: React.FC = () => {
           </p>
 
           {/* Botón de Cierre Gigante */}
-          <div className="flex flex-col items-center pt-10 pb-20">
+          <div id="cta-final" className="flex flex-col items-center pt-10 pb-20">
             <button 
               onClick={() => window.open(paymentLink, '_blank')}
               className="bg-emerald-600 hover:bg-emerald-700 text-white font-black py-8 px-16 rounded-full text-2xl md:text-4xl transition-all transform hover:scale-105 shadow-[0_25px_60px_rgba(5,150,105,0.4)] mb-8 uppercase tracking-tight"
