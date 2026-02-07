@@ -183,7 +183,7 @@ const App: React.FC = () => {
           
           <p>Hasta que una noche, frustrado, hice algo radical: dejé de buscar "qué hacer" y empecé a preguntarme "por qué nada funcionaba".</p>
           
-          <p>And ahí, en medio de mi frustración, encontré el patrón.</p>
+          <p>Y ahí, en medio de mi frustración, encontré el patrón.</p>
           
           <p>Todos los que fracasan en Clickbank (incluyéndome en ese momento) cometen el mismo error conceptual:</p>
           
@@ -286,66 +286,66 @@ const App: React.FC = () => {
           </h2>
 
           <div className="space-y-6 pt-10">
-            <h3 className="text-2xl font-black text-slate-900 uppercase tracking-tight">LA VERDAD INCOMODA QUE VAS A ENCONTRAR:</h3>
-            
             <div className="space-y-8">
               <div>
-                <h4 className="font-bold text-emerald-800">Capítulo 1-2: El Espejismo Roto</h4>
+                <h4 className="font-bold text-emerald-800">CAPÍTULO 1-2: LOS FUNDAMENTOS QUE NADIE TE EXPLICA</h4>
                 <ul className="list-disc pl-6 text-slate-600 mt-2">
-                  <li>Por qué tu intuición inicial sobre Clickbank está probablemente equivocada</li>
-                  <li>El mito de la "gravedad" y por qué obsesionarse con ella te hará fracasar</li>
-                  <li>La única métrica que realmente importa (y no está en el dashboard de Clickbank)</li>
-                  <li>Cómo resetear tu mentalidad antes de hacer clic en "registrarse"</li>
+                  <li>Por qué la mayoría subestima la curva de aprendizaje de Clickbank - La plataforma parece simple, pero tiene complejidades que frustran a principiantes</li>
+                  <li>Gravedad: Cómo interpretarla CORRECTAMENTE sin caer en obsesiones - No es la única métrica, pero tampoco es un mito; te enseño a usarla con criterio</li>
+                  <li>Las métricas OCULTAS que sí predicen éxito - Combinación de tasa de reembolso, tendencia y calidad de la página de ventas</li>
+                  <li>Configuración profesional desde el día 1 - No solo registro, sino seguridad, perfil y herramientas que usarás siempre</li>
                 </ul>
               </div>
 
               <div>
-                <h4 className="font-bold text-emerald-800">Capítulo 3: La Anatomía Del Dolor (No Del Producto)</h4>
+                <h4 className="font-bold text-emerald-800">CAPÍTULO 3: SELECCIÓN ESTRATÉGICA, NO ALEATORIA</h4>
                 <ul className="list-disc pl-6 text-slate-600 mt-2">
-                  <li>Mi método de 4 pasos para identificar problemas emocionales REALES (no inventados)</li>
-                  <li>Cómo distinguir entre un producto que "vende" y uno que "transforma"</li>
-                  <li>La entrevista imaginaria: Cómo entender a tu cliente ideal mejor que él se entiende a sí mismo</li>
-                  <li>Por qué promocionar un producto "popular" es la forma más rápida de fracasar</li>
+                  <li>Navegación estratégica del marketplace - Cómo encontrar oportunidades reales entre miles de productos</li>
+                  <li>Interpretación INTEGRAL de métricas - Gravedad, tendencia, reembolsos y su relación real</li>
+                  <li>Evaluación profesional de páginas de ventas - Lo que funciona vs. lo que solo es bonito</li>
+                  <li>Investigación del vendedor y calidad del producto - Tu "due diligence" como afiliado serio</li>
+                  <li>Herramientas externas para validar decisiones - Cómo usar datos externos para confirmar oportunidades</li>
+                  <li>Análisis de competencia inteligente - Identificar saturación real vs. oportunidades genuinas</li>
                 </ul>
               </div>
 
               <div>
-                <h4 className="font-bold text-emerald-800">Capítulo 4-5: El Arte De La Conexión, No De La Venta</h4>
+                <h4 className="font-bold text-emerald-800">CAPÍTULO 4-5: CONTENIDO QUE CONVIERTE, NO SOLO INFORMAR</h4>
                 <ul className="list-disc pl-6 text-slate-600 mt-2">
-                  <li>Cómo crear contenido que no "promocione" pero que CONVIERTA 3 veces más</li>
-                  <li>Las 3 preguntas que debes hacerte antes de escribir cualquier palabra</li>
-                  <li>El principio de "servicio primero": Por qué ayudar sin vender te hace vender más</li>
-                  <li>Cómo encontrar tu voz auténtica (no la voz "de vendedor" que todos odian)</li>
+                  <li>Cómo crear contenido relevante que genere confianza y ventas - Equilibrio entre valor educativo y persuasión</li>
+                  <li>Las 3 verificaciones antes de publicar - Relevancia, claridad y llamado a la acción efectivo</li>
+                  <li>El principio del valor primero - Por qué educar a tu audiencia te posiciona como referencia</li>
+                  <li>Cómo desarrollar un estilo comunicativo auténtico - Encontrar tu tono sin sonar como vendedor genérico</li>
                 </ul>
               </div>
 
               <div>
-                <h4 className="font-bold text-emerald-800">Capítulo 6-7: El Sistema, No La Campaña</h4>
+                <h4 className="font-bold text-emerald-800">CAPÍTULO 6-7: SISTEMATIZACIÓN DEL MARKETING</h4>
                 <ul className="list-disc pl-6 text-slate-600 mt-2">
-                  <li>Por qué pensar en "campañas" te condena al fracaso a largo plazo</li>
-                  <li>Cómo construir un embudo natural que funcione mientras duermes</li>
-                  <li>La rutina diaria de 60 minutos que genera resultados consistentes</li>
-                  <li>Automatización vs. conexión humana: dónde trazar la línea</li>
+                  <li>Por qué las campañas aisladas tienen vida corta - La importancia de la consistencia sobre la viralidad</li>
+                  <li>Cómo construir flujos de trabajo que generen resultados recurrentes - Integración de email, redes y contenido</li>
+                  <li>La rutina eficiente de gestión diaria - Métodos para optimizar tu tiempo sin sacrificar calidad</li>
+                  <li>Automatización inteligente vs contacto personal - Qué debe automatizarse y qué debe mantenerse humano</li>
                 </ul>
               </div>
 
               <div>
-                <h4 className="font-bold text-emerald-800">Capítulo 8-9: Escalando Con Integridad</h4>
+                <h4 className="font-bold text-emerald-800">CAPÍTULO 8-9: OPTIMIZACIÓN Y CRECIMIENTO</h4>
                 <ul className="list-disc pl-6 text-slate-600 mt-2">
-                  <li>Cómo aumentar tus ingresos sin convertirte en el vendedor agresivo que odias</li>
-                  <li>El dilema ético del afiliado: dónde están los límites reales</li>
-                  <li>Cuándo decir NO a una comisión alta (y por qué esto te hará más dinero a largo plazo)</li>
-                  <li>La sostenibilidad emocional: Cómo no quemarte en el proceso</li>
+                  <li>Cómo escalar resultados sin perder calidad en la comunicación - Mantener autenticidad mientras aumentas alcance</li>
+                  <li>Consideraciones éticas reales en marketing de afiliados - Transparencia con audiencia y compliance legal</li>
+                  <li>Cuándo priorizar calidad sobre comisión - Casos donde un producto inferior con alta comisión daña tu credibilidad</li>
+                  <li>Sostenibilidad operativa - Cómo organizarte para evitar el agotamiento</li>
                 </ul>
               </div>
 
               <div>
-                <h4 className="font-bold text-emerald-800">Capítulo 10: Lo Que Nadie Te Dice Sobre El "Éxito"</h4>
+                <h4 className="font-bold text-emerald-800">CAPÍTULO 10: ESCALANDO CON PERSPECTIVA REAL</h4>
                 <ul className="list-disc pl-6 text-slate-600 mt-2">
-                  <li>Por qué los primeros $500 son más importantes que los primeros $5.000</li>
-                  <li>Cómo manejar la soledad del emprendedor digital</li>
-                  <li>El costo real (emocional, no financiero) de este camino</li>
-                  <li>Mi historia personal: Lo que perdí mientras "ganaba"</li>
+                  <li>Por qué los primeros ingresos consistentes son más valiosos que spikes ocasionales - Construcción de base sólida</li>
+                  <li>Cómo gestionar el trabajo solitario del afiliado digital - Estrategias para mantener motivación y enfoque</li>
+                  <li>El balance entre inversión de tiempo y retorno financiero - Análisis real de esfuerzo vs resultados</li>
+                  <li>Mi aprendizaje personal: Lo que funciona y lo que no - Lecciones aplicables de mi experiencia</li>
                 </ul>
               </div>
             </div>
