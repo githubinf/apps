@@ -45,7 +45,7 @@ const App: React.FC = () => {
       </div>
 
       {/* Barra de Urgencia */}
-      <div className="bg-red-700 text-white py-2.5 px-4 text-center text-xs md:text-sm font-bold tracking-widest uppercase sticky top-0 z-50 shadow-md">
+      <div className="bg-blue-900 text-white py-2.5 px-4 text-center text-xs md:text-sm font-bold tracking-widest uppercase sticky top-0 z-50 shadow-md">
         ¡ATENCIÓN! ESTA OFERTA ES POR TIEMPO LIMITADO
       </div>
 
@@ -61,8 +61,8 @@ const App: React.FC = () => {
             <span className="text-emerald-900 italic font-normal">El Único Libro Que Te Dirá La Verdad Incómoda Que Necesitas Escuchar</span>
           </h1>
           
-          <div className="bg-red-50 border-2 border-red-600 p-6 rounded-xl inline-block mb-12">
-            <p className="text-red-700 font-bold text-sm md:text-base uppercase tracking-tighter">
+          <div className="bg-blue-50 border-2 border-blue-800 p-6 rounded-xl inline-block mb-12">
+            <p className="text-blue-900 font-bold text-sm md:text-base uppercase tracking-tighter">
               ADVERTENCIA: Si Buscas Una Fórmula Mágica Para Hacerte Rico En 30 Días, Cierra Esta Página Ahora Mismo
             </p>
           </div>
@@ -113,7 +113,7 @@ const App: React.FC = () => {
           
           <p>Y entonces hiciste clic en "Marketplace".</p>
           
-          <p className="text-2xl font-bold text-red-700">Y el mundo se desmoronó.</p>
+          <p className="text-2xl font-bold text-blue-900">Y el mundo se desmoronó.</p>
           
           <p>
             Términos que no entendías: "Gravedad", "Avg $/sale", "Initial $/sale". Productos con nombres extravagantes. Páginas de ventas que parecen sacadas de una feria medieval. Estadísticas que no sabes interpretar.
@@ -155,7 +155,7 @@ const App: React.FC = () => {
           
           <p>Y luego te venden la idea de que su "ángulo" particular, su "perspectiva única", es lo que hará la diferencia.</p>
           
-          <p className="text-2xl font-black uppercase text-red-600">Es mentira.</p>
+          <p className="text-2xl font-black uppercase text-blue-800">Es mentira.</p>
           
           <p>
             Lo que realmente separa a los que ganan dinero de los que no, no es un "secreto técnico". No es una "fórmula matemática oculta en el panel de Clickbank".
@@ -175,7 +175,7 @@ const App: React.FC = () => {
             Gasté $2.300 en cursos. Pasé 8 horas al día en foros. Probé 37 productos diferentes de Clickbank.
           </p>
           
-          <p className="bg-red-50 p-6 border-l-4 border-red-600">
+          <p className="bg-blue-50 p-6 border-l-4 border-blue-800">
             Mis resultados después de 6 meses: $417 en comisiones. Una pérdida neta de casi $2.000 si cuentas lo que invertí en cursos y anuncios.
           </p>
           
@@ -188,7 +188,7 @@ const App: React.FC = () => {
           <p>Todos los que fracasan en Clickbank (incluyéndome en ese momento) cometen el mismo error conceptual:</p>
           
           <p className="text-3xl font-bold text-center py-10 serif-font text-slate-900">
-            Creen que Clickbank es una plataforma para <span className="underline decoration-red-500">"vender productos"</span>.
+            Creen que Clickbank es una plataforma para <span className="underline decoration-blue-800">"vender productos"</span>.
           </p>
           
           <p>Y ese error de concepto es tan profundo, tan fundamental, que arruina todo lo que viene después.</p>
@@ -534,7 +534,7 @@ const App: React.FC = () => {
             ClickBank es un comerciante minorista de este producto. CLICKBANK® es una marca registrada de Click Sales, Inc., una corporación de Delaware, situada en 1444 S. Entertainment Ave., Suite 410 Boise, ID 83709, USA. La función de ClickBank como comerciante minorista no constituye respaldo o revisión de este producto.
           </p>
           <p className="max-w-2xl mx-auto opacity-60">
-            Este sitio no es parte del sitio web de Facebook o Facebook Inc. Además, este sitio NO está respaldado por Facebook de ninguna manera. FACEBOOK es una marca registrada de FACEBOOK, Inc.
+            Este sitio no es parte del sitio web de Facebook or Facebook Inc. Además, este sitio NO está respaldado por Facebook de ninguna manera. FACEBOOK es una marca registrada de FACEBOOK, Inc.
           </p>
         </footer>
       </main>
