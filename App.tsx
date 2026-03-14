@@ -74,8 +74,11 @@ const App: React.FC = () => {
             <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 w-[95%] h-12 bg-black/10 blur-3xl rounded-[100%]"></div>
             <img 
               src={bookImageUrl} 
-              alt="Dinero con Clickbank" 
+              alt="Portada del libro Dinero con Clickbank" 
               className="relative z-10 w-[280px] md:w-[400px] h-auto drop-shadow-2xl transition-transform duration-700 group-hover:-translate-y-2"
+              referrerPolicy="no-referrer"
+              loading="eager"
+              decoding="async"
             />
           </div>
         </div>
@@ -517,9 +520,9 @@ const App: React.FC = () => {
             </p>
             
             <div className="mt-12 flex gap-4 grayscale opacity-40">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" className="h-6" alt="Visa" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" className="h-8" alt="Mastercard" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" className="h-6" alt="Paypal" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" className="h-6" alt="Visa" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" className="h-8" alt="Mastercard" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" className="h-6" alt="Paypal" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
             </div>
           </div>
         </article>
