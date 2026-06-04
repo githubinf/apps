@@ -7,7 +7,7 @@ import React, { useState, useEffect } from 'react';
 const App: React.FC = () => {
   const [showFloatingCTA, setShowFloatingCTA] = useState(false);
   const paymentLink = 'https://fcofrancis.pay.clickbank.net/?cbitems=4';
-  const bookImageUrl = "https://i.ibb.co/spzGwZBx/dinero-con-clickbank.png";
+  const bookImageUrl = "https://i.ibb.co/jZvBdz9f/2-dinero-con-clickbank-libro-400.jpg";
 
   useEffect(() => {
     const handleScroll = () => {
